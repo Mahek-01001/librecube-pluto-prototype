@@ -2,7 +2,7 @@ id = "pluto"
 name = "PLUTO Space Language"
 version = "0.0.1"
 schema_version = 1
-authors = ["Mayank Maurya"]
+authors = ["Mahek Maurya"]
 
 [languages.pluto]
 name = "PLUTO"
