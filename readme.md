@@ -1,26 +1,26 @@
-# 🚀 LibreCube PLUTO Intelligence System  
+#  LibreCube PLUTO Intelligence System  
 ### ZED Plugin + API + Neuro-Symbolic Linting Prototype
 
 > Built as part of exploration for LibreCube GSoC (PLUTO Language & ZED Plugin Project)
 
 ---
 
-## 📝 Overview
+##  Overview
 
 This project is a **modern PLUTO (Procedure Language for Users in Test and Operations) development system** designed for space mission procedures.
 
 It combines:
 
-- ⚡ High-performance editor integration (ZED)
-- 🧠 Intelligent parsing & validation (Python backend)
-- 🛠️ Auto-formatting aligned with ECSS standards
-- 🔍 Semantic linting for mission-critical reliability
+-  High-performance editor integration (ZED)
+-  Intelligent parsing & validation (Python backend)
+-  Auto-formatting aligned with ECSS standards
+-  Semantic linting for mission-critical reliability
 
 The goal is to demonstrate how **space-grade procedural languages** can be enhanced using modern tooling like FastAPI, Tree-sitter, and editor extensions.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 PLUTO Code (.pluto / .prc)
 ↓
@@ -37,9 +37,9 @@ Future: Full LSP Integration
 
 ---
 
-## ✨ Key Features & Technical Highlights
+##  Key Features & Technical Highlights
 
-### 1. ⚡ High-Performance ZED Integration
+### 1.  High-Performance ZED Integration
 
 - Native extension design for **ZED editor (Rust-based, GPU accelerated)**
 - Automatic recognition of:
@@ -53,21 +53,21 @@ Future: Full LSP Integration
 
 - Aligned with **ECSS-E-ST-70-32C (European Space Standard)**
 - Features:
-  - ✅ Keyword capitalization (`INITIATE`, `CONFIRM`, `SET VALUE`)
-  - ✅ Logical indentation for:
+  -  Keyword capitalization (`INITIATE`, `CONFIRM`, `SET VALUE`)
+  -  Logical indentation for:
     - `IF-THEN-ELSE`
     - `WHILE`
     - `STEP`
-  - ✅ Clean and readable mission procedures
+  -  Clean and readable mission procedures
 
 ---
 
-### 3. 🧠 Neuro-Symbolic Linter (Semantic Analysis)
+### 3.  Neuro-Symbolic Linter (Semantic Analysis)
 
 - Detects:
-  - ❌ Unclosed procedures / blocks
-  - ❌ Missing syntax elements (e.g., colons)
-  - ❌ Invalid structure definitions
+  -  Unclosed procedures / blocks
+  -  Missing syntax elements (e.g., colons)
+  -  Invalid structure definitions
 
 - Provides:
   - Clear, actionable error messages
@@ -90,7 +90,7 @@ Future: Full LSP Integration
 
 ---
 
-### 5. 🌲 Tree-sitter Query Engine (Experimental)
+### 5.  Tree-sitter Query Engine (Experimental)
 
 - Context-aware highlighting using `.scm` queries
 - Differentiates:
@@ -104,16 +104,17 @@ Future: Full LSP Integration
 
 ## 📂 Project Structure
 
+```plaintext
 librecube-pluto-prototype/
 ├── parser/
-│ └── pluto_parser.py
+│   └── pluto_parser.py
 ├── api.py
 ├── main.py
 ├── sample.pluto
 ├── zed-extension/
-│ ├── extension.toml
-│ └── syntaxes/
-│ └── pluto.tmLanguage.json
+│   ├── extension.toml
+│   └── syntaxes/
+│       └── pluto.tmLanguage.json
 ├── index.html
 ├── PROPOSAL_PREVIEW.md
 └── README.md
