@@ -1,0 +1,9 @@
+id = "pluto"
+name = "PLUTO Space Language"
+version = "0.0.1"
+schema_version = 1
+authors = ["Mayank Maurya"]
+
+[languages.pluto]
+name = "PLUTO"
+file_types = ["pluto"]

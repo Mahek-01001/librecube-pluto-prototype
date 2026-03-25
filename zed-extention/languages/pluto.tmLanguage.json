@@ -1,0 +1,17 @@
+{
+  "scopeName": "source.pluto",
+  "patterns": [
+    {
+      "match": "\\b(PROCEDURE|MAIN|END|PRECONDITIONS)\\b",
+      "name": "keyword.structure.pluto"
+    },
+    {
+      "match": "\\b(SET|GET|WAIT|SEND|INITIATE|CONFIRM)\\b",
+      "name": "keyword.action.pluto"
+    },
+    {
+      "match": "\\b(IF|THEN|ELSE|WHILE|DO|AND|OR)\\b",
+      "name": "keyword.control.pluto"
+    }
+  ]
+}
